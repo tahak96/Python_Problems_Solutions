@@ -12,8 +12,6 @@ def product_function(SOMEINPUT):
         product = product*num
     return product
 
-#define  a function that uses a for loop to increment the value of the index and then using slicing input these
-#values to a function that calculates product for the remaining values in the list.
 def fname(lst):
     result = []
     for nums in range(len(lst)):
