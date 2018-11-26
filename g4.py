@@ -7,9 +7,6 @@
 #For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.
 
 #Solution
-#find the lowest no. in the list positive or negative, assign it a variable = lowest_num
-#if lowest_num < 0, make lowest_num =0 as the Problem requires positive integers only
-#find the highest_num in the list
 #using a for loop check if all the numbers from range(lowest_num, highest_num) are there,
     #if yes, then return highest_num+1
     # if no, then return the missing no.
